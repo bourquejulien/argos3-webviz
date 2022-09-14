@@ -26,10 +26,7 @@ This module defines::
 
 #]=======================================================================]
 
-#
-# Find the ARGoS package and load all ARGOS_* defines
-find_package(PkgConfig)
-pkg_check_modules(ARGOS REQUIRED argos3_simulator)
+find_package(ARGoS REQUIRED)
 
 #
 #
