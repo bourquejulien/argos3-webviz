@@ -7,6 +7,7 @@ set(ENTITIES_SOURCE_FILES
   entity/webviz_floor.cpp
   entity/webviz_cylinder.cpp
   entity/webviz_footbot.cpp
+  entity/webviz_crazyflie.cpp
 )
 
 ## External entities (added as plugins)

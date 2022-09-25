@@ -18,6 +18,7 @@ loadJS("/js/entities/Box.js")
 loadJS("/js/entities/Cylinder.js")
 loadJS("/js/entities/Footbot.js")
 
+loadJS("/js/entities/Crazyflie.js")
 loadJS("/js/entities/KheperaIV.js")
 
 /* Add your custom entity here.. */
@@ -34,6 +35,8 @@ function GetEntity(entity, scale, callback) {
       return new Box(entity, scale, callback)
     case 'cylinder':
       return new Cylinder(entity, scale, callback)
+    case 'crazyflie':
+      return new Crazyflie(entity, scale, callback);
     case 'kheperaiv':
       return new KheperaIV(entity, scale, callback)
     case 'foot-bot':
